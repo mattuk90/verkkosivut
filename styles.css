@@ -1,0 +1,47 @@
+
+header,footer{
+    text-align: center;
+    font-size: 32px;
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+
+}
+
+.linkit{
+    display: flex;
+    
+    
+    
+}
+
+.linkit >div{
+    flex: 1;
+    text-align: center;
+    background-color: gray;
+    color: aqua;
+
+
+
+}
+
+
+section >nav{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: rgb(201, 199, 199);
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+article{
+    float: right;
+    padding: 30px;
+    width: auto;
+    background-color: rgb(240, 237, 237);
+}
